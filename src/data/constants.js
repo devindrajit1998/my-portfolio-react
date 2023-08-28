@@ -166,7 +166,7 @@ export const projects = [
     title: "GMIT Website",
     date: "Apr 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "In this project, I redesigned and developed a college website using HTML, focusing on enhancing user experience, accessibility, and modern design principles. The goal was to create an engaging and informative online platform for students, faculty, and visitors to explore campus offerings, news, and resources.",
     image: "https://api.pikwy.com/web/64ec4e3f706cf90ade19b135.jpg",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
@@ -207,7 +207,7 @@ export const projects = [
     title: "Global IP convention - GIPC",
     date: "May 2023",
     description:
-      "Create a modern and user-friendly calculator web application using React, showcasing my skills in front-end development and UI design. This project aims to provide a functional calculator tool while demonstrating my proficiency in React components, state management, and responsive design.",
+      "Create a dynamic and visually engaging portfolio website focused on showcasing intellectual conversations, discussions, and thought-provoking content. This project aims to provide a platform for sharing diverse ideas, fostering meaningful interactions, and promoting open-mindedness. The website will be built using HTML, CSS, and potentially integrated with JavaScript for enhanced interactivity.",
     image: "https://api.pikwy.com/web/64ec51f79e604f7b870bea73.jpg",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
@@ -227,12 +227,92 @@ export const projects = [
     title: "BarLiq Dashboard",
     date: "July 2023",
     description:
-      "Create a modern and user-friendly calculator web application using React, showcasing my skills in front-end development and UI design. This project aims to provide a functional calculator tool while demonstrating my proficiency in React components, state management, and responsive design.",
+      "Create a dynamic and user-friendly dashboard for a bar's website to effectively track and manage various data points related to the bar's operations. This project involves utilizing the power of React to develop an interactive and responsive dashboard interface that enables bar management to monitor and analyze essential metrics in real time.",
     image: "https://api.pikwy.com/web/64ec534b36857172270c4a65.jpg",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "!#",
     webapp: "https://globalipconvention.com/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Food Menu - React-based Food Website",
+    date: "Aug 2023",
+    description:
+      "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
+    image: "https://api.pikwy.com/web/64ec55e6065a333855236d77.jpg",
+    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
+    category: "react",
+    github: "https://github.com/devindrajit1998/Food-Menu",
+    webapp: "https://food-menu-rho.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Eshop-Flipkart",
+    date: "Aug 2023",
+    description:
+      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+    image: "https://api.pikwy.com/web/64ec56cf48ba2a70636336f6.jpg",
+    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
+    category: "react",
+    github: "https://github.com/devindrajit1998/Eshop-Flipkart",
+    webapp: "https://eshop-flipkart.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Soul Design - Ecommerece",
+    date: "Apr 2023",
+    description:
+      "Create a captivating and fully functional e-commerce website using WordPress and the Elementor page builder, designed to showcase products, facilitate seamless shopping experiences, and boost online sales.",
+    image: "https://api.pikwy.com/web/64ec57f4706cf90ade19b13c.jpg",
+    tags: ["WordPress CMS", "Elementor Page Builder", "WooCommerce Plugin"],
+    category: "wordpress",
+    github: "!#",
+    webapp: "http://15.206.74.88/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Modern Website for Chartered Accountant Services",
+    date: "June 2023",
+    description:
+      "Create a dynamic and user-friendly portfolio website for a Chartered Accountant firm using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
+    image: "https://api.pikwy.com/web/64ec58a5c32b3d53e535a8f3.jpg",
+    tags: ["WordPress CMS", "Elementor Page Builder"],
+    category: "wordpress",
+    github: "!#",
+    webapp: "http://13.232.56.116/home/",
     member: [
       {
         name: "Indrajit Ghosh",
