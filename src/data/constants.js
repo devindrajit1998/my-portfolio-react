@@ -359,6 +359,7 @@ export const projects = [
         img: "https://avatars.githubusercontent.com/u/131792433?v=4",
         linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
         github: "https://github.com/devindrajit1998",
+        
       },
     ],
   },
