@@ -322,6 +322,26 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 8,
+    title: "Sumi Resturant",
+    date: "Aug 2023",
+    description:
+      "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
+    image: "https://api.pikwy.com/web/64ed25dfa36527109b3e99da.jpg",
+    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
+    category: "react",
+    github: "!#",
+    webapp: "https://food-mania.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
 ];
 
 export const TimeLineData = [
