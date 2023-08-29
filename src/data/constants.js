@@ -167,7 +167,7 @@ export const projects = [
     date: "Apr 2023",
     description:
       "In this project, I redesigned and developed a college website using HTML, focusing on enhancing user experience, accessibility, and modern design principles. The goal was to create an engaging and informative online platform for students, faculty, and visitors to explore campus offerings, news, and resources.",
-    image: "https://api.pikwy.com/web/64ec4e3f706cf90ade19b135.jpg",
+    image: "https://api.pikwy.com/web/64ee3635edeb572b2a6e3d67.jpg",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
     github: "",
@@ -188,7 +188,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Create a modern and user-friendly calculator web application using React, showcasing my skills in front-end development and UI design. This project aims to provide a functional calculator tool while demonstrating my proficiency in React components, state management, and responsive design.",
-    image: "https://api.pikwy.com/web/64ec509e36857172270c4a63.jpg",
+    image: "https://api.pikwy.com/web/64ee368e3d00bf4282443302.jpg",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/Basic-Calculator---React-Js",
@@ -208,7 +208,7 @@ export const projects = [
     date: "May 2023",
     description:
       "Create a dynamic and visually engaging portfolio website focused on showcasing intellectual conversations, discussions, and thought-provoking content. This project aims to provide a platform for sharing diverse ideas, fostering meaningful interactions, and promoting open-mindedness. The website will be built using HTML, CSS, and potentially integrated with JavaScript for enhanced interactivity.",
-    image: "https://api.pikwy.com/web/64ec51f79e604f7b870bea73.jpg",
+    image: "https://api.pikwy.com/web/64ee36d773e52b0c1751b056.jpg",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
     github: "",
@@ -248,7 +248,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "https://api.pikwy.com/web/64ec55e6065a333855236d77.jpg",
+    image: "https://api.pikwy.com/web/64ee373e9e604f7b870bebe8.jpg",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/Food-Menu",
@@ -268,7 +268,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "https://api.pikwy.com/web/64ec56cf48ba2a70636336f6.jpg",
+    image: "https://api.pikwy.com/web/64ee355c9e604f7b870bebe6.jpg",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/Eshop-Flipkart",
@@ -328,11 +328,31 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "https://api.pikwy.com/web/64ed25dfa36527109b3e99da.jpg",
+    image: "https://api.pikwy.com/web/64ee34d5706cf90ade19b2ac.jpg",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "!#",
     webapp: "https://food-mania.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "My Portfolio",
+    date: "Aug 2023",
+    description:
+      "Creating a portfolio website is a great way to showcase my skills and projects to potential employers, clients, or collaborators.",
+    image: "https://api.pikwy.com/web/64ee2b3f87203319357cce0a.jpg",
+    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
+    category: "react",
+    github: "https://github.com/devindrajit1998/my-portfolio-react",
+    webapp: "https://www.indrajit.online/",
     member: [
       {
         name: "Indrajit Ghosh",

@@ -38,13 +38,20 @@ const Card = styled.div`
     }
 `
 
-const Image = styled.img`
+const ImageContainer = styled.div`
     width: 100%;
     height: 180px;
+    overflow-y: scroll;
+`;
+
+const Image = styled.img`
+    width: 100%;
+    height: auto; 
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
-`
+`;
+
 
 const Tags = styled.div`
     width: 100%;
@@ -125,7 +132,9 @@ const Avatar = styled.img`
 const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+            <ImageContainer>
+                <Image src={project.image} />
+            </ImageContainer>
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>

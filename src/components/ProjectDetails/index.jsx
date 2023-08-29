@@ -65,12 +65,18 @@ const Desc = styled.div`
     }
 `;
 
-const Image = styled.img`
+const ImageContainer = styled.div`
     width: 100%;
-    object-fit: cover;
+    max-height: 500px;
+    overflow-y: scroll;
     border-radius: 12px;
     margin-top: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+`;
+
+const Image = styled.img`
+    width: 100%;
+    object-fit: cover;
 `;
 
 const Label = styled.div`
@@ -197,7 +203,9 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src={project?.image} />
+                    <ImageContainer>
+                        <Image src={project?.image} />
+                    </ImageContainer>
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
