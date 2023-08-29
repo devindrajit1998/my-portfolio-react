@@ -342,6 +342,26 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 9,
+    title: "My Portfolio",
+    date: "Aug 2023",
+    description:
+      "Creating a portfolio website is a great way to showcase my skills and projects to potential employers, clients, or collaborators.",
+    image: "https://api.pikwy.com/web/64ee27ba949fc91ca56d3703.jpg",
+    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
+    category: "react",
+    github: "https://github.com/devindrajit1998/my-portfolio-react",
+    webapp: "https://www.indrajit.online/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
 ];
 
 export const TimeLineData = [
