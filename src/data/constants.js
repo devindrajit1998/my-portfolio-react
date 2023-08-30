@@ -167,7 +167,7 @@ export const projects = [
     date: "Apr 2023",
     description:
       "In this project, I redesigned and developed a college website using HTML, focusing on enhancing user experience, accessibility, and modern design principles. The goal was to create an engaging and informative online platform for students, faculty, and visitors to explore campus offerings, news, and resources.",
-    image: "https://api.pikwy.com/web/64ee3635edeb572b2a6e3d67.jpg",
+    image: "img/0.png",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
     github: "",
@@ -188,7 +188,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Create a modern and user-friendly calculator web application using React, showcasing my skills in front-end development and UI design. This project aims to provide a functional calculator tool while demonstrating my proficiency in React components, state management, and responsive design.",
-    image: "https://api.pikwy.com/web/64ee368e3d00bf4282443302.jpg",
+    image: "img/1.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/Basic-Calculator---React-Js",
@@ -208,7 +208,7 @@ export const projects = [
     date: "May 2023",
     description:
       "Create a dynamic and visually engaging portfolio website focused on showcasing intellectual conversations, discussions, and thought-provoking content. This project aims to provide a platform for sharing diverse ideas, fostering meaningful interactions, and promoting open-mindedness. The website will be built using HTML, CSS, and potentially integrated with JavaScript for enhanced interactivity.",
-    image: "https://api.pikwy.com/web/64ee36d773e52b0c1751b056.jpg",
+    image: "img/2.png",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
     github: "",
@@ -228,11 +228,11 @@ export const projects = [
     date: "July 2023",
     description:
       "Create a dynamic and user-friendly dashboard for a bar's website to effectively track and manage various data points related to the bar's operations. This project involves utilizing the power of React to develop an interactive and responsive dashboard interface that enables bar management to monitor and analyze essential metrics in real time.",
-    image: "https://api.pikwy.com/web/64ec534b36857172270c4a65.jpg",
+    image: "img/3.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "!#",
-    webapp: "https://globalipconvention.com/",
+    webapp: "https://barliq.netlify.app/",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -248,7 +248,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "https://api.pikwy.com/web/64ee373e9e604f7b870bebe8.jpg",
+    image: "img/4.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/Food-Menu",
@@ -268,7 +268,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "https://api.pikwy.com/web/64ee355c9e604f7b870bebe6.jpg",
+    image: "img/5.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/Eshop-Flipkart",
@@ -288,7 +288,7 @@ export const projects = [
     date: "Apr 2023",
     description:
       "Create a captivating and fully functional e-commerce website using WordPress and the Elementor page builder, designed to showcase products, facilitate seamless shopping experiences, and boost online sales.",
-    image: "https://api.pikwy.com/web/64ec57f4706cf90ade19b13c.jpg",
+    image: "img/6.png",
     tags: ["WordPress CMS", "Elementor Page Builder", "WooCommerce Plugin"],
     category: "wordpress",
     github: "!#",
@@ -308,7 +308,7 @@ export const projects = [
     date: "June 2023",
     description:
       "Create a dynamic and user-friendly portfolio website for a Chartered Accountant firm using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
-    image: "https://api.pikwy.com/web/64ec58a5c32b3d53e535a8f3.jpg",
+    image: "img/7.png",
     tags: ["WordPress CMS", "Elementor Page Builder"],
     category: "wordpress",
     github: "!#",
@@ -328,7 +328,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "https://api.pikwy.com/web/64ee34d5706cf90ade19b2ac.jpg",
+    image: "img/8.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "!#",
@@ -348,7 +348,7 @@ export const projects = [
     date: "Aug 2023",
     description:
       "Creating a portfolio website is a great way to showcase my skills and projects to potential employers, clients, or collaborators.",
-    image: "https://api.pikwy.com/web/64ee2b3f87203319357cce0a.jpg",
+    image: "img/9.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "https://github.com/devindrajit1998/my-portfolio-react",
@@ -360,6 +360,66 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
         github: "https://github.com/devindrajit1998",
         
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Modern Website for Digital marketing agency",
+    date: "July 2023",
+    description:
+      "Create a dynamic and user-friendly website for a Digital marketing agency using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
+    image: "img/10.png",
+    tags: ["WordPress CMS", "Elementor Page Builder"],
+    category: "wordpress",
+    github: "!#",
+    webapp: "http://15.206.74.88/?page_id=1149",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 11,
+    title: "Modern Website for Digital marketing agency",
+    date: "June 2023",
+    description:
+      "Create a dynamic and user-friendly website for a Digital marketing agency using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
+    image: "img/11.png",
+    tags: ["WordPress CMS", "Elementor Page Builder"],
+    category: "wordpress",
+    github: "!#",
+    webapp: "http://13.232.56.116/home/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 12,
+    title: "Modern Website for Digital marketing agency",
+    date: "June 2023",
+    description:
+      "Create a dynamic and user-friendly website for a Digital marketing agency using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
+    image: "img/12.png",
+    tags: ["WordPress CMS", "Elementor Page Builder"],
+    category: "wordpress",
+    github: "!#",
+    webapp: "http://13.232.56.116/home/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
       },
     ],
   },
