@@ -423,6 +423,26 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 13,
+    title: "Modern Website for Resturant",
+    date: "Aug 2023",
+    description:
+      "This is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
+    image: "img/13.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+    category: "html",
+    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
+    webapp: "https://resturant-html-demo.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
 ];
 
 export const TimeLineData = [
