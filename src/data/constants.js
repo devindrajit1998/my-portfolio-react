@@ -121,15 +121,24 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/C510BAQFLSYlalkxxXg/company-logo_200_200/0/1630631499367/sleekinfosolutions_logo?e=2147483647&v=beta&t=TOXvuz_-BpE_AWxp2pSZ0wi0X_j_9WgFIiC6P7MzLks",
+    role: "Frontend Developer",
+    company: "Sleek Info Solution Pvt. Ltd.",
+    date: "September 2023 - Present",
+    desc: "Working on the frontend of the web application.",
+    skills: ["HTML5", "CSS3","SASS" ,"JavaScript", "Bootstrap", "Wordpress"],
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/C4D0BAQGrwAmliNVIvQ/company-logo_200_200/0/1603798574284?e=2147483647&v=beta&t=NkgDOLFEu5l9gQW-vMImnXxN8qUsihtZSl6y12v8VSg",
     role: "Frontend Engineer Intern",
     company: "Tinta Square",
-    date: "April 2023 - Present",
+    date: "April 2023 - July 2023",
     desc: "Working on the frontend of the web application.",
     skills: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Wordpress"],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://career.webindia123.com/career/institutes/aspupload/Uploads/west-bengal/24260/logo.jpg",
     role: "Digital Marketing Intern",
     company: "Gargi Memorial Institute Of Technology",
@@ -145,8 +154,8 @@ export const education = [
     img: "https://career.webindia123.com/career/institutes/aspupload/Uploads/west-bengal/24260/logo.jpg",
     school: "Gargi Memorial Institute Of Technology",
     date: "Aug 2020 - Sep 2023",
-    grade: "8.7 up to 7th semester.",
-    desc: "I am currently pursuing a Bachelor's degree in Electrical engineering at Gargi Memorial Institute Of Technology, Kolkata. I have completed 5 semesters and have a CGPA of 8.7",
+    grade: "8.57",
+    desc: "I have completed my Bachelor's degree in Electrical engineering at Gargi Memorial Institute Of Technology, Kolkata. I have completed 6 semesters and have a CGPA of 8.57",
     degree: "Bachelor of Technology - BTech, Electrical engineering",
   },
   {
@@ -430,6 +439,26 @@ export const projects = [
     description:
       "This is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
     image: "img/13.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+    category: "html",
+    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
+    webapp: "https://resturant-html-demo.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 14,
+    title: "Simple Ecommerece website",
+    date: "Sep 2023",
+    description:
+      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+    image: "img/14.png",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
     github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
