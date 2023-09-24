@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Indrajit Ghosh",
-  roles: ["Frontend Developer", "Wordpress Developer", "UI/UX Designer"],
+  roles: ["React Js Developer", "HTML Developer", "Wordpress Developer", "UI/UX Designer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/devindrajit1998",
