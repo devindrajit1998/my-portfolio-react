@@ -1,6 +1,6 @@
 export const Bio = {
   name: "Indrajit Ghosh",
-  roles: ["React Js Developer", "HTML Developer", "Wordpress Developer", "UI/UX Designer"],
+  roles: ["React Js Developer", "HTML Developer", "Wordpress Designer", "UI/UX Designer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/devindrajit1998",
@@ -461,6 +461,66 @@ export const projects = [
     id: 14,
     title: "Simple Ecommerece website",
     date: "Sep 2023",
+    description:
+      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+    image: "img/14.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+    category: "html",
+    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
+    webapp: "https://resturant-html-demo.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 15,
+    title: "Acrylic Re-Production Website",
+    date: "Nov 2023",
+    description:
+      "Walraft is a unique entity that came up with a vision of beautifying the memories of people who are looking forward.Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+    image: "img/15.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://resturant-html-demo.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 16,
+    title: "Simple Ecommerece website",
+    date: "Sep 2023",
+    description:
+      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+    image: "img/14.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+    category: "html",
+    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
+    webapp: "https://resturant-html-demo.vercel.app/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 17,
+    title: "Simple Ecommerece website",
+    date: "Oct 2023",
     description:
       "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
     image: "img/14.png",
