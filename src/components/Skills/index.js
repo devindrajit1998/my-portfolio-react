@@ -103,6 +103,14 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+
+  &:hover {
+    background-color: #5C49E280;
+    color: #fff;
+  }
+
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -111,7 +119,8 @@ const SkillItem = styled.div`
     font-size: 14px;
     padding: 6px 12px;
   }
-`
+`;
+
 
 const SkillImage = styled.img`
   width: 24px;

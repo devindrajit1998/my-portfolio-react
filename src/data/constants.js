@@ -1,11 +1,15 @@
 export const Bio = {
   name: "Indrajit Ghosh",
-  roles: ["React Js Developer", "HTML Developer", "Wordpress Designer", "UI/UX Designer"],
+  roles: [
+    "React Js Developer",
+    "HTML Developer",
+    "Wordpress Designer",
+    "UI/UX Designer",
+  ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/devindrajit1998",
-  resume:
-    "https://resume-nine-gamma.vercel.app",
+  resume: "https://resume-nine-gamma.vercel.app",
   linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
   twitter: "!#",
   insta: "!#",
@@ -19,13 +23,13 @@ export const skills = [
       {
         name: "React Js",
         image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
+      // {
+      //   name: "Redux",
+      //   image:
+      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      // },
       // {
       //   name: "Next Js",
       //   image:
@@ -48,7 +52,12 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://iconape.com/wp-content/png_logo_vector/javascript-logo.png",
+      },
+      {
+        name: "JQuery",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
       },
       {
         name: "Bootstrap",
@@ -78,12 +87,12 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       },
       // {
       //   name: "Docker",
@@ -100,11 +109,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
       },
-      // {
-      //   name: "Postman",
-      //   image:
-      //     "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-      // },
+      {
+        name: "Postman",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/postman.svg",
+      },
       // {
       //   name: "Adobe XD",
       //   image:
@@ -113,7 +122,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
       },
       {
         name: "Vercel",
@@ -131,7 +140,7 @@ export const experiences = [
     company: "Sleek Info Solution Pvt. Ltd.",
     date: "September 2023 - Present",
     desc: "Working on the frontend of the web application.",
-    skills: ["HTML5", "CSS3","SASS" ,"JavaScript", "Bootstrap", "Wordpress"],
+    skills: ["HTML5", "CSS3", "SASS", "JavaScript", "Bootstrap", "Wordpress"],
   },
   {
     id: 1,
@@ -373,7 +382,6 @@ export const projects = [
         img: "https://avatars.githubusercontent.com/u/131792433?v=4",
         linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
         github: "https://github.com/devindrajit1998",
-        
       },
     ],
   },
@@ -442,7 +450,7 @@ export const projects = [
     title: "Modern Website for Resturant",
     date: "Aug 2023",
     description:
-      "This is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
+      "This is a captivating and interactive portfolio project that showcases my skills in web development using the HTML, CSS & JS. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
     image: "img/13.png",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
@@ -462,7 +470,7 @@ export const projects = [
     title: "Simple Ecommerece website",
     date: "Sep 2023",
     description:
-      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+      "Create a dynamic and user-friendly E-Commerce Web Application using HTML, CSS & JS, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
     image: "img/14.png",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
     category: "html",
@@ -482,12 +490,12 @@ export const projects = [
     title: "Acrylic Re-Production Website",
     date: "Nov 2023",
     description:
-      "Walraft is a unique entity that came up with a vision of beautifying the memories of people who are looking forward.Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+      "Acrylic Re-Production Website: A captivating platform highlighting my expertise in acrylic reproduction. Explore a world of stunningly recreated artworks and custom pieces, showcasing the intricate beauty of acrylic artistry. Through seamless navigation and an immersive interface, witness the fusion of technical precision and artistic finesse in this showcase of my web development skills.",
     image: "img/15.png",
     tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
     category: "html",
     github: "#",
-    webapp: "https://resturant-html-demo.vercel.app/",
+    webapp: "/",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -499,15 +507,36 @@ export const projects = [
   },
   {
     id: 16,
-    title: "Simple Ecommerece website",
-    date: "Sep 2023",
+    title: "Showmethemegabucks",
+    date: "Nov 2023",
     description:
-      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "img/14.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+      "ShowMeTheMegaBucks: A dynamic, high-energy platform showcasing the thrilling world of horse racing. Dive into races, explore horse and jockey stats, and experience the excitement firsthand. My showcase of HTML, CSS & JS skills in an immersive, user-friendly environment.",
+    image: "img/16.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
     category: "html",
-    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
-    webapp: "https://resturant-html-demo.vercel.app/",
+    github: "#",
+    webapp: "https://showmethemegabucks.com",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+
+  {
+    id: 17,
+    title: "Wingnut Publishing - Book Publishing Company",
+    date: "Dec 2023",
+    description:
+      "Wingnut Publishing: Where stories take flight. Our platform merges innovation and tradition, empowering authors to share their tales and readers to discover new worlds. A showcase of my web development skills in crafting an engaging online space.",
+    image: "img/17.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://www.sisproj.com/design/wingnut",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -518,16 +547,36 @@ export const projects = [
     ],
   },
   {
-    id: 17,
-    title: "Simple Ecommerece website",
+    id: 18,
+    title: "Manafort Brothers - USA based construction Company",
     date: "Oct 2023",
     description:
-      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "img/14.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+      "Manafort Brothers: Shaping USA's landscape with excellence. Our online hub reflects our construction legacy, showcasing projects and expertise. A testament to my web development skills in crafting impactful digital showcases.",
+    image: "img/18.png",
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
     category: "html",
-    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
-    webapp: "https://resturant-html-demo.vercel.app/",
+    github: "#",
+    webapp: "https://carusodigital.ctechnow.com/manafort_new",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "Fastkart E-commerece Shop",
+    date: "Dec 2023",
+    description:
+      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
+    image: "img/19.png",
+    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
+    category: "react",
+    github: "#",
+    webapp: "https://fastkart-ecommerece.vercel.app",
     member: [
       {
         name: "Indrajit Ghosh",
