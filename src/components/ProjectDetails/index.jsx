@@ -209,15 +209,15 @@ const index = ({ openModal, setOpenModal }) => {
             onClick={() => setOpenModal({ state: false, project: null })}
           />
           <ImageContainer>
-            {/* <Image src={project?.image} /> */}
-            <StyledIframe
+            <Image src={project?.image} />
+            {/* <StyledIframe
               className="full-screen-preview__frame"
               src={project?.webapp}
               name="preview-frame"
               noresize="noresize"
               data-view="fullScreenPreview"
               allow="geolocation 'self'; autoplay 'self'"
-            />
+            /> */}
           </ImageContainer>
           <Title>{project?.title}</Title>
           <Date>{project.date}</Date>

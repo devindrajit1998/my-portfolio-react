@@ -1,11 +1,6 @@
 export const Bio = {
   name: "Indrajit Ghosh",
-  roles: [
-    "React Js Developer",
-    "HTML Developer",
-    "Wordpress Designer",
-    "UI/UX Designer",
-  ],
+  roles: ["React Js Developer", "HTML Developer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/devindrajit1998",
@@ -25,11 +20,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       },
-      // {
-      //   name: "Redux",
-      //   image:
-      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      // },
+      {
+        name: "Redux Toolkit",
+        image:
+          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      },
       // {
       //   name: "Next Js",
       //   image:
@@ -45,7 +40,7 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "SCSS",
+        name: "SASS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png",
       },
@@ -56,8 +51,7 @@ export const skills = [
       },
       {
         name: "JQuery",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/jquery-4.svg",
       },
       {
         name: "Bootstrap",
@@ -81,55 +75,55 @@ export const skills = [
     ],
   },
 
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-      },
-      // {
-      //   name: "Docker",
-      //   image:
-      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      // },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/postman.svg",
-      },
-      // {
-      //   name: "Adobe XD",
-      //   image:
-      //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      // },
-      {
-        name: "Figma",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
-      },
-      {
-        name: "Vercel",
-        image: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
-      },
-    ],
-  },
+  // {
+  //   title: "Others",
+  //   skills: [
+  //     {
+  //       name: "Git",
+  //       image:
+  //         "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+  //     },
+  //     {
+  //       name: "GitHub",
+  //       image:
+  //         "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+  //     },
+  //     // {
+  //     //   name: "Docker",
+  //     //   image:
+  //     //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+  //     // },
+  //     {
+  //       name: "Netlify",
+  //       image:
+  //         "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+  //     },
+  //     {
+  //       name: "VS Code",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+  //     },
+  //     {
+  //       name: "Postman",
+  //       image:
+  //         "https://cdn.worldvectorlogo.com/logos/postman.svg",
+  //     },
+  //     // {
+  //     //   name: "Adobe XD",
+  //     //   image:
+  //     //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+  //     // },
+  //     {
+  //       name: "Figma",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
+  //     },
+  //     {
+  //       name: "Vercel",
+  //       image: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
+  //     },
+  //   ],
+  // },
 ];
 
 export const experiences = [
@@ -151,15 +145,15 @@ export const experiences = [
     desc: "Working on the frontend of the web application.",
     skills: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Wordpress"],
   },
-  {
-    id: 2,
-    img: "https://career.webindia123.com/career/institutes/aspupload/Uploads/west-bengal/24260/logo.jpg",
-    role: "Digital Marketing Intern",
-    company: "Gargi Memorial Institute Of Technology",
-    date: "January 2023 - April 2023",
-    desc: "Working as Digital Marketing Intern.",
-    skills: ["Creative Design", "Content Writing"],
-  },
+  // {
+  //   id: 2,
+  //   img: "https://career.webindia123.com/career/institutes/aspupload/Uploads/west-bengal/24260/logo.jpg",
+  //   role: "Digital Marketing Intern",
+  //   company: "Gargi Memorial Institute Of Technology",
+  //   date: "January 2023 - April 2023",
+  //   desc: "Working as Digital Marketing Intern.",
+  //   skills: ["Creative Design", "Content Writing"],
+  // },
 ];
 
 export const education = [
@@ -174,7 +168,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdRdG2mAnQZxpyeBEsdk3tY683EV2OEFjikg&usqp=CAU",
+    img: "https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_of_Baruipur_Government_Polytechnic_Kolkata_Logo.png",
     school: "Baruipur Government Polytechnic",
     date: "Aug 2017 - Aug 2020",
     grade: "77.7%",
@@ -184,17 +178,78 @@ export const education = [
 ];
 
 export const projects = [
+ 
   {
-    id: 0,
-    title: "GMIT Website",
-    date: "Apr 2023",
+    id: 20,
+    title: "Connect Global",
+    date: "Dec 2024",
     description:
-      "In this project, I redesigned and developed a college website using HTML, focusing on enhancing user experience, accessibility, and modern design principles. The goal was to create an engaging and informative online platform for students, faculty, and visitors to explore campus offerings, news, and resources.",
-    image: "img/0.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
-    category: "html",
-    github: "",
-    webapp: "https://gmit2023.netlify.app",
+      "Connect Global: A seamless platform for international students and immigrants to find SIM cards and mobile plans for Canada, USA, UK, and Australia. Currently under development, I am handling both the design and development using React and Redux Toolkit to ensure a smooth, efficient user experience. This project showcases my expertise in building high-performance, scalable digital solutions for global connectivity.",
+    image: "img/21.png",
+    tags: ["React Js","Redux Toolkit", "HTML", "SASS", "BootStrap 5", "JavaScript"],
+    category: "react",
+    github: "#",
+    webapp: "https://staging.sisdeve.com/connect-global-frontend/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 21,
+    title: "Shippmo",
+    date: "Feb 2025",
+    description:
+      "Shippmo: A streamlined platform for customs clearance under the Government of India. Currently under development, I am handling both design and development using React, Material Tailwind, and Redux Toolkit to create a seamless and efficient user experience. This project showcases my expertise in building high-performance, user-centric digital solutions for logistics and compliance.",
+    image: "img/22.png",
+    tags: ["React Js","Redux Toolkit", "Material UI", "Tailwind"],
+    category: "react",
+    github: "#",
+    webapp: "https://sleekdev.com/shippmo-frontend",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "Altayar Properties",
+    date: "Oct 2024",
+    description:
+      "Altayar Properties: A modern real estate platform transforming property sales in Oman. Currently under development, I am handling both the design and development using React.js to create a seamless, user-friendly experience. This project showcases my expertise in crafting high-performance digital solutions for the real estate market.",
+    image: "img/20.png",
+    tags: ["React Js", "HTML", "SASS", "BootStrap 5", "JavaScript"],
+    category: "react",
+    github: "#",
+    webapp: "https://res.sisproj.com/design/view/altayar/html/index.html",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 22,
+    title: "Multikit Ecommerce",
+    date: "Jan 2025",
+    description:
+      "Multikit Ecommerce: A feature-rich eCommerce platform built as a practice project using React, Vite, and Redux Toolkit. Designed and developed by me, this project focuses on creating a fast, scalable, and user-friendly shopping experience. A testament to my skills in modern web development and state management.",
+    image: "img/23.png",
+    tags: ["React Js","Redux Toolkit", "HTML", "CSS", "BootStrap 5", "JavaScript"],
+    category: "react",
+    github: "#",
+    webapp: "https://sleekdev.com/shippmo-frontend",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -210,7 +265,7 @@ export const projects = [
     title: "React Calculator",
     date: "Aug 2023",
     description:
-      "Create a modern and user-friendly calculator web application using React, showcasing my skills in front-end development and UI design. This project aims to provide a functional calculator tool while demonstrating my proficiency in React components, state management, and responsive design.",
+      "Calculator App: A practice project focused on building a modern, user-friendly calculator web application using React. Designed and developed by me, this project showcases my skills in front-end development, UI design, React components, state management, and responsive design.",
     image: "img/1.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
@@ -230,9 +285,9 @@ export const projects = [
     title: "Global IP convention - GIPC",
     date: "May 2023",
     description:
-      "Create a dynamic and visually engaging portfolio website focused on showcasing intellectual conversations, discussions, and thought-provoking content. This project aims to provide a platform for sharing diverse ideas, fostering meaningful interactions, and promoting open-mindedness. The website will be built using HTML, CSS, and potentially integrated with JavaScript for enhanced interactivity.",
+      "Global IP Convention (GIPC): A dynamic portfolio website designed to showcase intellectual conversations, discussions, and thought-provoking content. I handled the design phase, creating a visually engaging and interactive interface using HTML, CSS, and JavaScript. This project highlights my expertise in crafting intuitive and immersive designs that foster meaningful interactions and idea-sharing.",
     image: "img/2.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
+    tags: ["HTML", "CSS", "BootStrap 5", "JavaScript"],
     category: "html",
     github: "",
     webapp: "https://globalipconvention.com/",
@@ -250,112 +305,12 @@ export const projects = [
     title: "BarLiq Dashboard",
     date: "July 2023",
     description:
-      "Create a dynamic and user-friendly dashboard for a bar's website to effectively track and manage various data points related to the bar's operations. This project involves utilizing the power of React to develop an interactive and responsive dashboard interface that enables bar management to monitor and analyze essential metrics in real time.",
+      "BarLiq Dashboard: A dynamic and user-friendly dashboard designed to streamline bar operations. I handled the design phase, creating an intuitive and visually engaging interface that enhances data tracking and management. This project showcases my expertise in crafting responsive and interactive UI designs for real-time business analytics.",
     image: "img/3.png",
     tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
     category: "react",
     github: "!#",
     webapp: "https://barliq.netlify.app/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Food Menu - React-based Food Website",
-    date: "Aug 2023",
-    description:
-      "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "img/4.png",
-    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
-    category: "react",
-    github: "https://github.com/devindrajit1998/Food-Menu",
-    webapp: "https://food-menu-rho.vercel.app/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Eshop-Flipkart",
-    date: "Aug 2023",
-    description:
-      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "img/5.png",
-    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
-    category: "react",
-    github: "https://github.com/devindrajit1998/Eshop-Flipkart",
-    webapp: "https://eshop-flipkart.vercel.app/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Soul Design - Ecommerece",
-    date: "Apr 2023",
-    description:
-      "Create a captivating and fully functional e-commerce website using WordPress and the Elementor page builder, designed to showcase products, facilitate seamless shopping experiences, and boost online sales.",
-    image: "img/6.png",
-    tags: ["WordPress CMS", "Elementor Page Builder", "WooCommerce Plugin"],
-    category: "wordpress",
-    github: "!#",
-    webapp: "http://15.206.74.88/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "Modern Website for Chartered Accountant Services",
-    date: "June 2023",
-    description:
-      "Create a dynamic and user-friendly portfolio website for a Chartered Accountant firm using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
-    image: "img/7.png",
-    tags: ["WordPress CMS", "Elementor Page Builder"],
-    category: "wordpress",
-    github: "!#",
-    webapp: "http://13.232.56.116/home/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 8,
-    title: "Sumi Resturant",
-    date: "Aug 2023",
-    description:
-      "Food Menu is a captivating and interactive portfolio project that showcases my skills in web development using the React framework. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "img/8.png",
-    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
-    category: "react",
-    github: "!#",
-    webapp: "https://food-mania.vercel.app/",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -386,116 +341,16 @@ export const projects = [
     ],
   },
   {
-    id: 10,
-    title: "Modern Website for Digital marketing agency",
-    date: "July 2023",
-    description:
-      "Create a dynamic and user-friendly website for a Digital marketing agency using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
-    image: "img/10.png",
-    tags: ["WordPress CMS", "Elementor Page Builder"],
-    category: "wordpress",
-    github: "!#",
-    webapp: "http://15.206.74.88/?page_id=1149",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 11,
-    title: "Modern Website for Digital marketing agency",
-    date: "June 2023",
-    description:
-      "Create a dynamic and user-friendly website for a Digital marketing agency using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
-    image: "img/11.png",
-    tags: ["WordPress CMS", "Elementor Page Builder"],
-    category: "wordpress",
-    github: "!#",
-    webapp: "http://13.232.56.116/home/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 12,
-    title: "Modern Website for Digital marketing agency",
-    date: "June 2023",
-    description:
-      "Create a dynamic and user-friendly website for a Digital marketing agency using WordPress and Elementor, showcasing the firm's expertise, services, and professional approach to financial management. The website will emphasize a modern design, intuitive navigation, and a responsive layout to ensure an optimal viewing experience across various devices.",
-    image: "img/12.png",
-    tags: ["WordPress CMS", "Elementor Page Builder"],
-    category: "wordpress",
-    github: "!#",
-    webapp: "http://13.232.56.116/home/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 13,
-    title: "Modern Website for Resturant",
-    date: "Aug 2023",
-    description:
-      "This is a captivating and interactive portfolio project that showcases my skills in web development using the HTML, CSS & JS. The project centers around creating a dynamic and engaging food website where users can explore a variety of delectable dishes, view detailed information about each dish, and easily navigate through the menu categories.",
-    image: "img/13.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
-    category: "html",
-    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
-    webapp: "https://resturant-html-demo.vercel.app/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
-    id: 14,
-    title: "Simple Ecommerece website",
-    date: "Sep 2023",
-    description:
-      "Create a dynamic and user-friendly E-Commerce Web Application using HTML, CSS & JS, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "img/14.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript"],
-    category: "html",
-    github: "https://github.com/devindrajit1998/Resturant--HTML-demo",
-    webapp: "https://resturant-html-demo.vercel.app/",
-    member: [
-      {
-        name: "Indrajit Ghosh",
-        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
-        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
-        github: "https://github.com/devindrajit1998",
-      },
-    ],
-  },
-  {
     id: 15,
     title: "Acrylic Re-Production Website",
     date: "Nov 2023",
     description:
-      "Acrylic Re-Production Website: A captivating platform highlighting my expertise in acrylic reproduction. Explore a world of stunningly recreated artworks and custom pieces, showcasing the intricate beauty of acrylic artistry. Through seamless navigation and an immersive interface, witness the fusion of technical precision and artistic finesse in this showcase of my web development skills.",
+      "Acrylic Re-Production Website: A visually captivating platform designed to showcase the art of acrylic reproduction. I handled the design phase, crafting an immersive and intuitive interface that highlights stunning recreated artworks and custom pieces. This project demonstrates my expertise in creating elegant and user-friendly designs that blend artistic finesse with seamless navigation.",
     image: "img/15.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
     category: "html",
     github: "#",
-    webapp: "/",
+    webapp: "https://photocopyacrylicreproductions.com",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -510,12 +365,12 @@ export const projects = [
     title: "Showmethemegabucks",
     date: "Nov 2023",
     description:
-      "ShowMeTheMegaBucks: A dynamic, high-energy platform showcasing the thrilling world of horse racing. Dive into races, explore horse and jockey stats, and experience the excitement firsthand. My showcase of HTML, CSS & JS skills in an immersive, user-friendly environment.",
+      "ShowMeTheMegaBucks: A dynamic, high-energy platform capturing the thrill of horse racing. I handled the design phase, creating an engaging and user-friendly interface that brings races, horse and jockey stats to life. This project showcases my expertise in crafting immersive designs using HTML, CSS, and JavaScript.",
     image: "img/16.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
+    tags: ["HTML", "CSS", "BootStrap 5", "JavaScript", "JQuery"],
     category: "html",
     github: "#",
-    webapp: "https://showmethemegabucks.com",
+    webapp: "https://showmethemegabucks.com.au",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -531,12 +386,12 @@ export const projects = [
     title: "Wingnut Publishing - Book Publishing Company",
     date: "Dec 2023",
     description:
-      "Wingnut Publishing: Where stories take flight. Our platform merges innovation and tradition, empowering authors to share their tales and readers to discover new worlds. A showcase of my web development skills in crafting an engaging online space.",
+      "Wingnut Publishing: Where stories take flight. I handled the design phase, creating a seamless and visually engaging platform that bridges innovation and tradition. This project showcases my expertise in crafting intuitive and immersive designs that empower authors and captivate readers.",
     image: "img/17.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
     category: "html",
     github: "#",
-    webapp: "https://www.sisproj.com/design/wingnut",
+    webapp: "https://wingnutpublishing.net",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -551,12 +406,12 @@ export const projects = [
     title: "Manafort Brothers - USA based construction Company",
     date: "Oct 2023",
     description:
-      "Manafort Brothers: Shaping USA's landscape with excellence. Our online hub reflects our construction legacy, showcasing projects and expertise. A testament to my web development skills in crafting impactful digital showcases.",
+      "Manafort Brothers: Shaping the USA’s landscape with excellence. I handled the design phase, creating a digital hub that showcases their construction legacy, projects, and expertise. This project highlights my skills in crafting impactful and visually compelling web designs for the construction industry.",
     image: "img/18.png",
-    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "JQuery"],
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
     category: "html",
     github: "#",
-    webapp: "https://carusodigital.ctechnow.com/manafort_new",
+    webapp: "https://www.manafort.com",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -567,16 +422,16 @@ export const projects = [
     ],
   },
   {
-    id: 19,
-    title: "Fastkart E-commerece Shop",
-    date: "Dec 2023",
+    id: 23,
+    title: "Pioneer Property",
+    date: "Oct 2024",
     description:
-      "Create a dynamic and user-friendly E-Commerce Web Application using React, aimed at providing a seamless shopping experience for customers. The project involves designing and implementing various features essential for an online store, including product listings, search functionality, shopping cart management, user authentication, and a visually appealing user interface.",
-    image: "img/19.png",
-    tags: ["React", "JSX", "CSS", "JavaScript ES6+"],
-    category: "react",
+      "Pioneer Property: A Kolkata-based real estate company website where I handled the design phase using HTML, SASS, JavaScript, jQuery, and Bootstrap 5. This project showcases my expertise in crafting responsive, visually appealing, and user-friendly web interfaces for the real estate sector.",
+    image: "img/24.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
     github: "#",
-    webapp: "https://fastkart-ecommerece.vercel.app",
+    webapp: "https://sisproj.com/pioneer_local",
     member: [
       {
         name: "Indrajit Ghosh",
@@ -586,12 +441,134 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 24,
+    title: "Leet Carbon",
+    date: "Sep 2024",
+    description:
+      "LEET Carbon: A platform where innovation meets environmental sustainability. I handled the design phase, creating a modern, user-friendly interface that enhances accessibility and engagement. This project showcases my expertise in crafting intuitive and visually appealing designs for nature-based carbon project development and management.",
+    image: "img/25.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://res.sisproj.com/design/view/leet_carbon/html/",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 25,
+    title: "Coastal Connections Aircraft Charter",
+    date: "July 2024",
+    description:
+      "Coastal Connections Aircraft Charter: A luxury air travel platform designed for elite travelers. I handled the design phase, crafting a sleek, user-friendly interface that reflects the exclusivity and sophistication of private aviation. This project showcases my expertise in creating visually compelling and intuitive designs for high-end travel experiences.",
+    image: "img/26.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://flycoastal.com",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 26,
+    title: "Suite Co",
+    date: "Jan 2025",
+    description:
+      "Suite Co: A platform for organizing top-tier seminars and events. I handled the design phase, creating a clean, intuitive, and visually engaging interface to enhance user experience. This project showcases my expertise in crafting elegant and user-friendly designs for the event management industry.",
+    image: "img/27.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://flycoastal.com",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 27,
+    title: "Chatham Place",
+    date: "Jan 2024",
+    description:
+      "Chatham Place: A senior living and memory care community designed for comfort and security. I handled the design phase, crafting a warm, user-friendly interface that reflects the legacy and care of Mary Wade. This project showcases my expertise in creating intuitive and visually engaging designs for the senior care industry.",
+    image: "img/28.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://flycoastal.com",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 28,
+    title: "Fluid Color",
+    date: "Mar 2024",
+    description:
+      "Fluid Color: A leading provider of wide and grand format LED printers. I handled the design phase, creating a sleek, user-friendly interface that highlights the versatility and reliability of Fluid Color's printing solutions. This project showcases my expertise in crafting intuitive and visually engaging designs for the printing technology industry.",
+    image: "img/29.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://flycoastal.com",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+  {
+    id: 29,
+    title: "FPS Technology",
+    date: "May 2024",
+    description:
+      "FPS Technology: A global leader in mining, construction, farming, and power equipment spares. I handled the design phase, creating a robust and user-friendly interface that enhances accessibility and ease of browsing through an extensive inventory. This project showcases my expertise in crafting intuitive and efficient designs for the industrial equipment sector.",
+    image: "img/30.png",
+    tags: ["HTML", "SASS", "BootStrap 5", "JavaScript", "JQuery"],
+    category: "html",
+    github: "#",
+    webapp: "https://flycoastal.com",
+    member: [
+      {
+        name: "Indrajit Ghosh",
+        img: "https://avatars.githubusercontent.com/u/131792433?v=4",
+        linkedin: "https://www.linkedin.com/in/indrajit-ghosh-mern-stack/",
+        github: "https://github.com/devindrajit1998",
+      },
+    ],
+  },
+ 
+ 
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
+// export const TimeLineData = [
+//   { year: 2017, text: "Started my journey" },
+//   { year: 2018, text: "Worked as a freelance developer" },
+//   { year: 2019, text: "Founded JavaScript Mastery" },
+//   { year: 2020, text: "Shared my projects with the world" },
+//   { year: 2021, text: "Started my own platform" },
+// ];

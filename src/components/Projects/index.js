@@ -1,58 +1,92 @@
-import React from 'react'
-import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
-import ProjectCard from '../Cards/ProjectCards'
-import { projects } from '../../data/constants'
+import React from "react";
+import { useState } from "react";
+import {
+  Container,
+  Wrapper,
+  Title,
+  Desc,
+  CardContainer,
+  ToggleButtonGroup,
+  ToggleButton,
+  Divider,
+} from "./ProjectsStyle";
+import ProjectCard from "../Cards/ProjectCards";
+import { projects } from "../../data/constants";
 
-
-const Projects = ({openModal,setOpenModal}) => {
-  const [toggle, setToggle] = useState('all');
+const Projects = ({ openModal, setOpenModal }) => {
+  const [toggle, setToggle] = useState("all");
   return (
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. Here are some of my projects.
+          I have worked on a wide range of projects. Here are some of my
+          projects.
         </Desc>
-        <ToggleButtonGroup >
-          {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-            :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
-          }
+        <ToggleButtonGroup>
+          {toggle === "all" ? (
+            <ToggleButton active value="all" onClick={() => setToggle("all")}>
+              All
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="all" onClick={() => setToggle("all")}>
+              All
+            </ToggleButton>
+          )}
           <Divider />
-          {toggle === 'html' ?
-            <ToggleButton active value="html" onClick={() => setToggle('html')}>HTML</ToggleButton>
-            :
-            <ToggleButton value="html" onClick={() => setToggle('html')}>HTML</ToggleButton>
-          }
+
+          {toggle === "react" ? (
+            <ToggleButton
+              active
+              value="react"
+              onClick={() => setToggle("react")}
+            >
+              REACT APPS
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="react" onClick={() => setToggle("react")}>
+              REACT APPS
+            </ToggleButton>
+          )}
           <Divider />
-          {toggle === 'react' ?
-            <ToggleButton active value="react" onClick={() => setToggle('react')}>REACT APPS</ToggleButton>
-            :
-            <ToggleButton value="react" onClick={() => setToggle('react')}>REACT APPS</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'wordpress' ?
+          {toggle === "html" ? (
+            <ToggleButton active value="html" onClick={() => setToggle("html")}>
+              HTML
+            </ToggleButton>
+          ) : (
+            <ToggleButton value="html" onClick={() => setToggle("html")}>
+              HTML
+            </ToggleButton>
+          )}
+          {/* <Divider /> */}
+          {/* {toggle === 'wordpress' ?
             <ToggleButton active value="wordpress" onClick={() => setToggle('wordpress')}>WORDPRESS</ToggleButton>
             :
             <ToggleButton value="wordpress" onClick={() => setToggle('wordpress')}>WORDPRESS</ToggleButton>
-          }
+          } */}
         </ToggleButtonGroup>
         <CardContainer>
-          {toggle === 'all' && projects
-            .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+          {toggle === "all" &&
+            projects.map((project) => (
+              <ProjectCard
+                project={project}
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
             ))}
           {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
-              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard
+                project={project}
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
             ))}
         </CardContainer>
       </Wrapper>
     </Container>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
